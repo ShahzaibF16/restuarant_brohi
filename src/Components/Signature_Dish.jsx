@@ -4,12 +4,12 @@ import dishImage from '../Assets/signature.jpg';
 
 const SignatureDish = () => {
   return (
-    <div className="signature-dish">
+    <div className="signature-dish mb-4 mt-4">
       <Container>
         <Row>
           <Col md={6}>
             <div className="dish-image-wrapper">
-              <Image src={dishImage} className="dish-image" />
+              <Image width={'100%'} src={dishImage} className="dish-image" />
             </div>
           </Col>
           <Col md={6}>

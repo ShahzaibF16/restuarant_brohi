@@ -1,46 +1,42 @@
-import React from 'react';
-import { Container, Row, Col, Nav, Image, Form, Button } from 'react-bootstrap';
-import logo from '../Assets/logo.png';
+import React from "react"
+import '../App.css'
 
-const Footer = () => {
-  return (
-    <div className="footer">
-      <Container>
-        <Row className="mb-4">
-          <Col md={4}>
-            <Nav className="flex-column">
-              <Nav.Link href="#">Home</Nav.Link>
-              <Nav.Link href="#">About Us</Nav.Link>
-              <Nav.Link href="#">Menu</Nav.Link>
-              <Nav.Link href="#">Contact</Nav.Link>
-            </Nav>
-          </Col>
-          <Col md={4} className="text-center">
-            <Image src={logo} alt="Logo" className="logo mb-3" />
-            <div className="social-media-links">
-              <a href="#"><i className="fab fa-facebook-f"></i></a>
-              <a href="#"><i className="fab fa-twitter"></i></a>
-              <a href="#"><i className="fab fa-instagram"></i></a>
+const Footer = () => <footer className="page-footer font-small blue pt-4">
+    <div className="container-fluid text-center text-md-left">
+        <div className="row">
+            <div className="col-md-6 mt-md-0 mt-3">
+                <h5 className="text-uppercase">Footer Content</h5>
+                <p>Here you can use rows and columns to organize your footer content.</p>
             </div>
-          </Col>
-          <Col md={4}>
-            <h5 className="mb-3">Sign up for our newsletter</h5>
-            <Form className="mb-3">
-              <Form.Group controlId="formBasicEmail" className="mb-0">
-                <Form.Control type="email" placeholder="Enter email" />
-              </Form.Group>
-            </Form>
-            <Button variant="primary">Subscribe</Button>
-          </Col>
-        </Row>
-        <Row>
-          <Col>
-            <p className="text-muted text-center mb-0">© 2023 Desi Balochi Food</p>
-          </Col>
-        </Row>
-      </Container>
-    </div>
-  );
-};
 
-export default Footer;
+            <hr className="clearfix w-100 d-md-none pb-0"/>
+
+            <div className="col-md-3 mb-md-0 mb-3">
+                <h5 className="text-uppercase">Links</h5>
+                <ul className="list-unstyled">
+                    <li><a href="#!">Link 1</a></li>
+                    <li><a href="#!">Link 2</a></li>
+                    <li><a href="#!">Link 3</a></li>
+                    <li><a href="#!">Link 4</a></li>
+                </ul>
+            </div>
+
+            <div className="col-md-3 mb-md-0 mb-3">
+                <h5 className="text-uppercase">Links</h5>
+                <ul className="list-unstyled">
+                    <li><a href="#!">Link 1</a></li>
+                    <li><a href="#!">Link 2</a></li>
+                    <li><a href="#!">Link 3</a></li>
+                    <li><a href="#!">Link 4</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div className="footer-copyright text-center py-3">© 2020 Copyright:
+        <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+    </div>
+
+</footer>
+
+export default Footer

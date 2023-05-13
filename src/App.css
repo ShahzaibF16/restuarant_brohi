@@ -2,6 +2,9 @@ body{
   margin: 0;
   padding: 0;
 }
+img{
+  border-radius: 10px;
+}
 .hero-banner{
   background-size: cover;
   background-repeat: no-repeat;
@@ -13,4 +16,17 @@ body{
 }
 .hero_text{
   padding: 250px 10px 10px 10px;
+}
+.who-we-are{
+  padding: 10px 20px 10px 20px;
+}
+.who-we-are .container{
+  background:rgba(255, 228, 225, 0.829);
+  border-radius: 20px;
+}
+.who-we-are .container p{
+  padding: 30px;
+}
+.page-footer{
+  background-color: rgba(255, 228, 225, 0.829);
 }
