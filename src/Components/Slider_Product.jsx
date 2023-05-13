@@ -2,7 +2,9 @@ import React from 'react';
 import { Container, Row, Col, Carousel } from 'react-bootstrap';
 import sliderImage1 from '../Assets/slider_1.jpg';
 import sliderImage2 from '../Assets/slider_2.jpg';
-import sliderImage3 from '../Assets/slider_4.jpg';
+import sliderImage3 from '../Assets/slider_3.jpg';
+import sliderImage4 from '../Assets/slider_4.jpg';
+import '../App.css'
 
 const SliderSection = () => {
   return (
@@ -34,7 +36,7 @@ const SliderSection = () => {
                     <img src={sliderImage3} alt="Slider Image 3" className="img-fluid" />
                   </Col>
                   <Col md={4}>
-                    <img src={sliderImage1} alt="Slider Image 1" className="img-fluid" />
+                    <img src={sliderImage4} alt="Slider Image 1" className="img-fluid" />
                   </Col>
                 </Row>
               </Carousel.Item>

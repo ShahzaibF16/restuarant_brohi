@@ -1,7 +1,8 @@
 import React from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
-import eventImage1 from '../Assets/2022-02-13.jpg';
-import eventImage2 from '../Assets/2022-04-10.jpg';
+import eventImage1 from '../Assets/event_1.jpg';
+import eventImage2 from '../Assets/event_2.jpg';
+import '../App.css'
 
 const EventsSection = () => {
   return (
@@ -11,9 +12,9 @@ const EventsSection = () => {
         <Row>
           <Col md={6} className="mb-4">
             <div className="event-image-wrapper">
-              <Image src={eventImage1} className="event-image" />
+              <Image src={eventImage1} className="event-image" width={"100%"}/>
               <div className="event-overlay">
-                <div className="event-details">
+                <div className="event-details mt-4">
                   <h3 className="event-title">Desi Food Festival</h3>
                   <p className="event-date">May 20, 2023</p>
                 </div>
@@ -22,9 +23,9 @@ const EventsSection = () => {
           </Col>
           <Col md={6} className="mb-4">
             <div className="event-image-wrapper">
-              <Image src={eventImage2} className="event-image" />
+              <Image src={eventImage2} className="event-image" width={"100%"}/>
               <div className="event-overlay">
-                <div className="event-details">
+                <div className="event-details mt-4">
                   <h3 className="event-title">BBQ Night</h3>
                   <p className="event-date">June 17, 2023</p>
                 </div>
