@@ -8,7 +8,7 @@ import Logo from '../Assets/logo_2.png'
 
 function Header_2() {
     return (
-        <Navbar collapseOnSelect expand="lg" bg="transparent" variant="dark">
+        <Navbar className='nav_bar' collapseOnSelect expand="lg" bg="transparent" variant="dark">
             <Container>
                 <Navbar.Brand href="#home">
                     <Link to="/"><img src={Logo} width={'80px'}/></Link>

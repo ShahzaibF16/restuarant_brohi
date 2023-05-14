@@ -1,4 +1,5 @@
 import React from 'react';
+import '../App.css'
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 import dish1 from '../Assets/dish_1.jpg';
 import dish2 from '../Assets/dish_2.jpg';
@@ -15,9 +16,9 @@ const MenuSection = () => {
             <Card className="menu-card mb-4">
               <div className="menu-card-image-wrapper">
                 <Card.Img variant="top" src={dish1} />
-                <div className="menu-card-overlay">
+                {/* <div className="menu-card-overlay">
                   <Button variant="light" className="menu-card-button">Order Now</Button>
-                </div>
+                </div> */}
               </div>
               <Card.Body>
                 <Card.Title className="font-weight-bold mb-1">Mutton Karahi</Card.Title>
@@ -29,9 +30,7 @@ const MenuSection = () => {
             <Card className="menu-card mb-4">
               <div className="menu-card-image-wrapper">
                 <Card.Img variant="top" src={dish2} />
-                <div className="menu-card-overlay">
-                  <Button variant="light" className="menu-card-button">Order Now</Button>
-                </div>
+                
               </div>
               <Card.Body>
                 <Card.Title className="font-weight-bold mb-1">Red Karahi</Card.Title>
@@ -43,9 +42,7 @@ const MenuSection = () => {
             <Card className="menu-card mb-4">
               <div className="menu-card-image-wrapper">
                 <Card.Img variant="top" src={dish3} />
-                <div className="menu-card-overlay">
-                  <Button variant="light" className="menu-card-button">Order Now</Button>
-                </div>
+                
               </div>
               <Card.Body>
                 <Card.Title className="font-weight-bold mb-1">Dumpukht</Card.Title>
@@ -57,9 +54,7 @@ const MenuSection = () => {
             <Card className="menu-card mb-4">
               <div className="menu-card-image-wrapper">
                 <Card.Img variant="top" src={dish4} />
-                <div className="menu-card-overlay">
-                  <Button variant="light" className="menu-card-button">Order Now</Button> 
-                </div>
+                
               </div>
               <Card.Body>
                 <Card.Title className="font-weight-bold mb-1">Lamb Chops</Card.Title>

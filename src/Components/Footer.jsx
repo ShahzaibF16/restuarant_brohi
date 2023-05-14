@@ -31,7 +31,7 @@ const Footer = () => {
                 <Form.Control type="email" placeholder="Enter email" />
               </Form.Group>
             </Form>
-            <Button variant="primary">Subscribe</Button>
+            <Button className='btn_dark'>Subscribe</Button>
           </Col>
         </Row>
         <Row>
